@@ -1074,17 +1074,17 @@ a.btn-mod:focus{
 .scroll-down:before{
     display: block;
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     margin: 0 0 0 -10px;
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 25%;
     background: #fff;
     
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
-    border-radius: 2px;
+    border-radius: 100px;
     
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -1110,11 +1110,12 @@ a.btn-mod:focus{
     width: 10px;
     height: 10px;
     margin-left: -5px;
+    margin-bottom: 11px;
     position: absolute;
-    left: 50%;
-    bottom: 4px;
-    color: #111;
-    font-size: 15px;
+    left: 47%;
+    bottom: 10px;
+    color:  black;
+    font-size: 20px;
 
     -webkit-animation: scroll-down-anim 1s infinite;
     -moz-animation: scroll-down-anim 1s infinite;
@@ -2347,7 +2348,8 @@ a.logo:hover{
  */
 
 .page-section,
-.small-section{
+.small-section, 
+.smaller-section{
     width: 100%;
     display: block;    
     position: relative;
@@ -2370,6 +2372,11 @@ a.logo:hover{
 .small-section{
     padding: 70px 0;
 }
+
+.smaller-section{
+    padding: 30px 0;
+}
+
 .small-title{
     padding: 0;
     margin: 0 0 30px 0;
@@ -4139,6 +4146,25 @@ a.logo:hover{
     -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
+
+.contact-links a{
+    width: 50px;
+    height: 50px;
+    line-height: 50px !important;
+    position: relative;
+    margin: 0 11px;
+    text-align: center;
+    display: inline-block;
+    color: #111;
+    border-radius: 90px;
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
 .footer-social-links a i,
 .footer-social-links a span{
     position: relative;
